@@ -6,8 +6,8 @@ const Razorpay = require("razorpay")
 
 app.use(bodyparser.json());
 var instance = new Razorpay({
-    key_id: '',
-    key_secret: ''
+    key_id: 'rzp_live_t6X8QiiXL7J6wG',
+    key_secret: 'FdATvZqjb7lpX3VPpcQoAMCl'
 })
 
 
